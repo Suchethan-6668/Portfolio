@@ -14,9 +14,11 @@ Personal portfolio built with **Next.js**, **Tailwind CSS**, and **Framer Motion
 |------|--------|
 | Content (experience, projects, skills) | `src/data/portfolio.ts` |
 | Resume PDF | `public/resume.pdf` |
-| Profile photo | Add `public/profile.jpg` (see TODO in `Hero.tsx`) |
+| Profile photo (LinkedIn) | `public/profile.png` (path in `siteConfig.profileImage`) |
 | Project GitHub / Live links | `projects[].github` / `projects[].live` in `portfolio.ts` |
 | Contact form backend | Wire in `Contact.tsx` (currently opens mailto) |
+
+
 
 ## Sections
 

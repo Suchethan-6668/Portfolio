@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import ProfileAvatar from "@/components/ProfileAvatar";
 import { navLinks, siteConfig } from "@/data/portfolio";
 
 export default function Navbar() {
@@ -15,10 +16,13 @@ export default function Navbar() {
       >
         <a
           href="#home"
-          className="font-mono text-sm font-semibold tracking-tight text-zinc-100 transition hover:text-teal-400"
+          className="flex items-center gap-2.5 font-mono text-sm font-semibold tracking-tight text-zinc-100 transition hover:text-teal-400"
         >
-          {siteConfig.shortName}
-          <span className="text-teal-400">.</span>
+          <ProfileAvatar size={32} showRing={false} />
+          <span>
+            {siteConfig.shortName}
+            <span className="text-teal-400">.</span>
+          </span>
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">

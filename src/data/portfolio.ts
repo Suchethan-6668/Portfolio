@@ -22,8 +22,8 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/suchethan-vilasagaram-8bbb98332/",
     email: "mailto:suchethan06@gmail.com",
   },
-  // TODO: Add a profile photo at public/profile.jpg and uncomment usage in Hero/Navbar
-  profileImage: "/profile.jpg",
+  // Profile photo in public/ — currently profile.png
+  profileImage: "/profile.png",
 };
 
 export const about = {
