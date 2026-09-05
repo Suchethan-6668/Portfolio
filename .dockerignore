@@ -1,0 +1,32 @@
+# Dependencies & build artifacts
+node_modules
+npm-debug.log*
+.next
+out
+build
+dist
+
+# Git / IDE
+.git
+.gitignore
+.cursor
+.vscode
+*.md
+!README.md
+
+# Env & local secrets
+.env*
+!.env.example
+
+# Docker / deploy noise
+Dockerfile*
+docker-compose*
+.dockerignore
+.vercel
+
+# Tests & misc
+coverage
+*.tsbuildinfo
+.next-env.d.ts
+AGENTS.md
+CLAUDE.md
